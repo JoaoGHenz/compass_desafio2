@@ -13,21 +13,30 @@
 
   export default {
     name: "app",
-    components: { MainCard }
+    components: { 
+      MainCard 
+    }
 }
 
 </script>
 
 <style>
 
+html {
+  height: 100%;
+}
+
 body {
   display: flex;
+  height: 98%;
   justify-content: center;
+  align-items: center;
   background-color: #ECEEF2
 }
 
 .maincard {
   display: flex;
+  align-items: center;
   border-radius: 20px;
   width: 617px;
   height: 763px;
