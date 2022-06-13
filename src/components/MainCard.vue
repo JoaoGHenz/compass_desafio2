@@ -1,23 +1,27 @@
 <template>
     <div>
-        <h1 class="title">Intern Sign Up</h1>
+        <CardTitle  class="title"/>
+
     </div>
 </template>
 
 <script>
+import CardTitle from './CardTitle.vue'
+
 export default {
-    name: 'MainCard'
+    name: "MainCard",
+    components: { CardTitle }
 }
 </script>
 
 <style scoped>
-    .title {
-        display: flex;
-        border-radius: 20px;
-        width: 617px;
-        height: 763px;
-        background-color: white;
-    }
-
+    
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Inter';
+}
 
 </style>
