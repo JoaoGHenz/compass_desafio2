@@ -59,6 +59,9 @@ p {
     margin: 2px 0;
     font-size: 14px;
     color: #767676;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .form-check:after {

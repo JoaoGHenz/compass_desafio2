@@ -3,7 +3,7 @@
         <label class="label-checkbox">
             <div>
                 <input type="checkbox" class="checkbox">
-                    <p>I accept the terms and privacy</p>
+                    <p class="checkbox-message">I accept the terms and privacy</p>
             </div>
             <p class="label-error"></p>
         </label>
@@ -36,6 +36,10 @@
     width: 20px;
     height: 20px;
     box-sizing: border-box;
+}
+
+.checkbox-message {
+    color: #111111;
 }
 
 .button {
