@@ -25,7 +25,7 @@
         </label>
 
         <label for="birthday" class="label-birthday">
-            <p class="form-check">Birhtday</p>
+            <p class="form-check">Birthday</p>
             <input name="birthday" type="date" class="input-birthday">
             <p class="label-error birthday-error"></p>
         </label>
@@ -41,11 +41,6 @@ export default{
 </script>
 
 <style>
-
-label {
-    margin: 0 0 25px 0;
-    height: 86px;
-}
 
 .label-name {
     order: 0;
