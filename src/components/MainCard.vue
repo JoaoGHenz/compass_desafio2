@@ -17,6 +17,9 @@ export default {
         CardTitle,
         CardBody,
         CardFooter
+     },
+     data: {
+        test: "HMMM"
      }
 }
 </script>
@@ -38,6 +41,10 @@ export default {
     flex-flow: wrap row;
     justify-content: space-between;
     height: 45%;
+}
+
+.body * {
+    display: flex;
 }
 
 

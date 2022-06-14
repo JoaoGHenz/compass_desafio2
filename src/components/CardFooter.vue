@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="card-footer">
         <label class="label-checkbox">
             <div>
                 <input type="checkbox" class="checkbox">
@@ -22,13 +22,17 @@
 
 .label-checkbox {
     display:flex;
-    flex-flow: wrap row;
+    flex-flow: wrap column;
     max-width: 220px;
     height: 50px;
 }
 
 .label-checkbox div {
     display: flex;
+}
+
+.label-checkbox div {
+    align-items: center;
 }
 
 .checkbox{
@@ -46,6 +50,7 @@
     border-radius: 10px;
     background: #0DBDBD;
     color: #FFFFFF;
+    font-family: "Nunito", Arial;
 }
 
 
