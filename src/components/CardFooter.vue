@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="card-footer">
         <label class="label-checkbox">
             <div>
                 <input type="checkbox" class="checkbox">
