@@ -7,14 +7,19 @@
             </div>
             <p class="label-error"></p>
         </label>
-
-        <label class="submit"><input type="button" class="button" value="Register"></label>
+        <label class="submit"></label><router-link to="/SuccessCard" tag="button" class="button" @click="register">ASAD</router-link></label>
+        <label class="submit"><input type="button" class="button" value="Register" @click="register"></label>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'CardFooter'
+        name: 'CardFooter',
+        methods: {
+            register() {
+                console.log("Button is working")
+            }
+        }
     }
 </script>
 

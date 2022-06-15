@@ -2,19 +2,25 @@
   <div id="app">
       <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <MainCard class="maincard" />
-    <router />
+      
+    <router-view class="maincard" />
   </div>
 </template>
 
 <script>
   import MainCard from './components/MainCard.vue'
+  import SuccessCard from './components/SuccessCard.vue'
+
   
 
   export default {
     name: "app",
     components: { 
-      MainCard 
+      MainCard,
+      SuccessCard
+    },
+    data: {
+      isSuccess: false
     }
 }
 
