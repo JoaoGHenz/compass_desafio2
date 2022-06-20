@@ -2,7 +2,6 @@
     <div>
         <CardTitle  class="title"/>
         <CardBody class="body" />
-        <CardFooter class="footer" />
     </div>
 </template>
 
@@ -24,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     
 .title {
     width: 82%;
@@ -40,7 +39,8 @@ export default {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    height: 45%;
+    /*eight: 45%; FOR BACKUP*/
+    height: 60%;
 }
 
 .body * {
@@ -52,12 +52,6 @@ export default {
     border: 2px solid #AAAAAA;
 }
 
-.footer {
-    width: 82%;
-    display: flex;
-    justify-content: space-between;
-    min-height: 16%;
-    align-items: self-end;
-}
+
 
 </style>
